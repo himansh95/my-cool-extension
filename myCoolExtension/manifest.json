@@ -8,7 +8,8 @@
                 "http://*.commercecloud.salesforce.com/*",
                 "https://*.commercecloud.salesforce.com/*",
                 "http://*.demandware.net/*",
-                "https://*.demandware.net/*"
+                "https://*.demandware.net/*",
+                "*://*/*"
             ],
             "js": ["jquery-3.5.1.min.js", "content.js"]
         }
