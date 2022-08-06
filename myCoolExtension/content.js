@@ -15,3 +15,13 @@ var footer = $('div.footer');
 if (footer) {
     footer.css('display', 'none');
 }
+
+var passwords = $('input[type="password"]');
+
+passwords.mousedown(function (e) {
+	e.stopPropagation();
+	
+	if (e.which === 3) {
+		$(this).prop('type', 'text');
+	}
+});
